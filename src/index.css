@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-sereif;
+}
+
+Header {
+    height: 55px;
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+Header > img {
+    width: 24px;
+    margin-right: 7px;
+}
+
+Header > span {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.card {
+    display: flex;
+    margin: 35px 40px;
+    justify-content: center;
+    max-width: 470px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card:not(:last-child) {
+    border-bottom: 1px solid #F5F5F5; 
+}
+
+.card-image {
+    width: 125px;
+    height: 168px;
+    overflow: hidden;
+    border-radius: 5px;
+    flex-shrink: 0;
+    margin-right: 19px;
+}
+
+.main-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-details > .marker {
+    height: 10px;
+    margin-right: 4px;
+}
+
+.card-details > .country {
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-right: 12px;
+}
+
+.card-details a {
+    color: #2B283A;
+    font-size: 0.7rem;
+}
+
+.card-details a:visited {
+    color: #918E9B;
+}
+
+.card-details h2 {
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
+
+.card-details .dates {
+    font-weight: bold;
+}
+
+.card-details .entry-texts {
+    line-height: 1.5;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    overflow: hidden;
+}
